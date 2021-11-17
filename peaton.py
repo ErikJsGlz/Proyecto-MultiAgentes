@@ -16,7 +16,7 @@ class Peaton(ap.Agent):
         for i in range(n):
             self.x += 1
 
-    def walk_lefth(self, n):
+    def walk_left(self, n):
         for i in range(n):
             self.x -= 1
     
