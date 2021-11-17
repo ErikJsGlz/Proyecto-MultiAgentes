@@ -12,5 +12,18 @@ class Peaton(ap.Agent):
         self.y = 0
         self.z = 0
 
-    def walk(self):
-        self.x += 1
+    def walk_rigth(self, n):
+        for i in range(n):
+            self.x += 1
+
+    def walk_lefth(self, n):
+        for i in range(n):
+            self.x -= 1
+    
+    def walk_down(self, n):
+        for i in range(n):
+            self.y -= 1
+
+    def walk_up(self, n):
+        for i in range(n):
+            self.y += 1
