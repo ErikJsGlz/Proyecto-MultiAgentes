@@ -25,15 +25,14 @@ class StreetModel(ap.Model):
         size = self.p.size
         self.cruce = ap.Grid(self, [size] * 2, track_empty = True)
 
-        # Agregamos a los agentes
-        """ 
-        Random: para asignar posiciones aleatorias 
-        empty: ?
-        
-        
-        """
-        self.cruce.add_agents(self.carros, [(2, 3), (4, 6)])
-        # self.carros[0].x = 2
+        """ Agregamos a los agentes de tipo Carro """
+        # Los ponemos en 
+        x = [2, 4]
+        y = [3, 6]
+        self.cruce.add_agents(self.carros, [
+            (2, 3), 
+            (4, 6)
+        ])
 
         for i in range(2):
             if (i == 0):
@@ -44,8 +43,6 @@ class StreetModel(ap.Model):
                 self.carros[i].x = 4
                 self.carros[i].y = 6
 
-        # carros.x
-        # carros[0].x
         
         #print("Hay un total de: " + str(self.p.carros) + " carros")
         # for car in self.carros:
@@ -57,15 +54,15 @@ class StreetModel(ap.Model):
         # self.carros.move_left(2)
 
     def update(self):
-        # self.cars.record('success')
+        
+        # Meter agente semáforo #
+
         print("\n" + str(self.carros.x))
         count = 0
         for carro in self.carros:
             count += 1
             if (count % 2 == 0):
                 carro.move_left(2)
-                # print(carro.x)
-                # self.carros[carro].move_left(2)
             else:
                 carro.move_right(2)
         
