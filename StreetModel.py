@@ -126,15 +126,15 @@ class StreetModel(ap.Model):
             }
             currentPos.update(pos)
 
-        #  #
-        if (self.semaforoActivo == 0):
-            self.semaforo_carros[0].changeStatus()
-            self.semaforoActivo = 1
-            print("Semaforo 1")
-        else:
-            self.semaforo_carros[1].changeStatus()
-            self.semaforoActivo = 0
-            print("Semaforo 2")
+        # FALTA AÑADIR FUNCIONALIDAD E INTEGRACIÓN DE LOS SEMÁFOROS CON OTROS AGENTES #
+        # if (self.semaforoActivo == 0):
+        #     self.semaforo_carros[0].changeStatus()
+        #     self.semaforoActivo = 1
+        #     print("Semaforo 1")
+        # else:
+        #     self.semaforo_carros[1].changeStatus()
+        #     self.semaforoActivo = 0
+        #     print("Semaforo 2")
         
         
 
