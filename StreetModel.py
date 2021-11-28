@@ -23,6 +23,9 @@ class StreetModel(ap.Model):
         global t
         t = time.time()
 
+        semaforos_carros = []
+        semaforos_peatones = []
+
         self.semaforoActivo = 0
 
         """ Inicializamos los agentes """
@@ -85,25 +88,32 @@ class StreetModel(ap.Model):
             self.semaforo_carros[i].y = 0
             self.semaforo_carros[i].z = z_semaforo_carro[i]
 
-            pos = {
-                "semaforo_carro" + str(i) + "_x" : x_semaforo_carro[i],
-                "semaforo_carro" + str(i) + "_y" : z_semaforo_carro[i]
+            semaforo = {
+                "x" : x_semaforo_carro[i],
+                "y" : 0,
+                "z" : z_semaforo_carro[i]
             }
-            currentPos.update(pos)
+            semaforos_carros.append(semaforo)
 
         for i in range(n_semaforo_peatones):
             self.semaforo_peatones[i].x = x_semaforo_peatones[i]
             self.semaforo_peatones[i].y = 0
             self.semaforo_peatones[i].z = z_semaforo_peatones[i]
 
-            pos = {
-                "semaforo_peatones" + str(i) + "_x" : x_semaforo_peatones[i],
-                "semaforo_peatones" + str(i) + "_y" : z_semaforo_peatones[i]
+            semaforo = {
+                "x" : x_semaforo_peatones[i],
+                "y" : 0,
+                "z" : z_semaforo_peatones[i]
             }
-            currentPos.update(pos)
+            semaforos_peatones.append(semaforo)
 
+
+        step = {
+            "semaforos_carros": semaforos_carros,
+            "semaforos_peatones": semaforos_peatones
+        }
         stepInicial = {
-            "posicion_inicial": currentPos
+            "posicion_inicial": step
         }
         jsonFile.update(stepInicial)
         # steps.append(currentPos)
@@ -112,14 +122,14 @@ class StreetModel(ap.Model):
 
     def step(self): 
 
-        # Reiniciamos el currentPos para iniciar las posiciones de los carros
-        currentPos = {}
+        # Cada step tiene un arreglo de carros y uno de semaforos
+        carros = []
+        semaforos_carros = []
 
         print("\n")
         # for i in range(4):
         #     print("Carro " + str(i + 1) + " - Posición: (" + str(self.carros[i].x) + ", " + str(self.carros[i].y) + ", " + str(self.carros[i].z) + ")" )
         
-
 
         # Si el semáforo 1 está en verde, entonces avanzan los carros en x, si no avanzan los del eje z
         if (self.semaforo_carros[0].status == 1): 
@@ -134,17 +144,17 @@ class StreetModel(ap.Model):
     
         # Definimos la posición actual de los carros en un json
         for i in range(4):
-            pos = {
-                "carro" + str(i) + "_x" : self.carros[i].x,
-                "carro" + str(i) + "_y" : self.carros[i].y,
-                "carro" + str(i) + "_z" : self.carros[i].z
+            carro = {
+                "x": self.carros[i].x,
+                "y": self.carros[i].y,
+                "z": self.carros[i].z
             }
-            currentPos.update(pos)
+            carros.append(carro)
         for i in range(2):
-            estado = {
-                "semaforo" + str(i) + "_estado" : self.semaforo_carros[i].status
+            semaforo = {
+                "estado": self.semaforo_carros[i].status
             }
-            currentPos.update(estado)
+            semaforos_carros.append(semaforo)
 
         # FALTA AÑADIR FUNCIONALIDAD E INTEGRACIÓN DE LOS SEMÁFOROS CON OTROS AGENTES #
         # if (self.semaforoActivo == 0):
@@ -164,7 +174,11 @@ class StreetModel(ap.Model):
         print(elapsed_time)
 
 
-        steps.append(currentPos)
+        step = {
+            "carros": carros,
+            "semaforos_carros": semaforos_carros
+        }
+        steps.append(step)
 
         ### ¿Falta actualizarlo en el grid? ###
         ### AÑADIR ALGUNA FUNCIONALIDAD A LOS PEATONES ###
