@@ -12,7 +12,8 @@ elapsed_time = 0
 # Importamos JSON
 import json
 # Posiciones en formato JSON
-posJSON = []
+steps = []
+jsonFile = {}
 currentPos = {}
 
 class StreetModel(ap.Model):
@@ -101,7 +102,11 @@ class StreetModel(ap.Model):
             }
             currentPos.update(pos)
 
-        posJSON.append(currentPos)
+        stepInicial = {
+            "posicion_inicial": currentPos
+        }
+        jsonFile.update(stepInicial)
+        # steps.append(currentPos)
 
         ### AÑADIR PEATONES ###
 
@@ -159,7 +164,7 @@ class StreetModel(ap.Model):
         print(elapsed_time)
 
 
-        posJSON.append(currentPos)
+        steps.append(currentPos)
 
         ### ¿Falta actualizarlo en el grid? ###
         ### AÑADIR ALGUNA FUNCIONALIDAD A LOS PEATONES ###
@@ -168,6 +173,10 @@ class StreetModel(ap.Model):
         
         
     def end(self):
+        steps_json = {
+            "steps": steps
+        }
+        jsonFile.update(steps_json)
         self.report('ended', 1) 
 
         
@@ -186,6 +195,6 @@ results = model.run()
 print(results)
 
 # Guardamos el JSON como archivo
-json_object = json.dumps(posJSON, indent = 4)
+json_object = json.dumps(jsonFile, indent = 4)
 with open("positions.json", "w") as outfile:
     outfile.write(json_object)
