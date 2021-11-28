@@ -66,6 +66,9 @@ class StreetModel(ap.Model):
             (-7, 7),
             (7, -7)
         ])
+        # Definimos a uno de los semáforos como detenido, o Rojo
+        self.semaforo_carros[0].status = 0
+
         self.cruce.add_agents(self.semaforo_peatones, [
             (-6, -7),
             (6, 7)
@@ -111,13 +114,20 @@ class StreetModel(ap.Model):
         # for i in range(4):
         #     print("Carro " + str(i + 1) + " - Posición: (" + str(self.carros[i].x) + ", " + str(self.carros[i].y) + ", " + str(self.carros[i].z) + ")" )
         
-        # Hacemos que avancen los carros
-        for i in range(4):
-            if (i == 0 or i == 1):
-                self.carros[i].move_up(1)
-            elif (i == 2 or i == 3):
-                self.carros[i].move_right(1)
 
+
+        # Si el semáforo 1 está en verde, entonces avanzan los carros en x, si no avanzan los del eje z
+        if (self.semaforo_carros[0].status == 1): 
+            for i in range(4):
+                if (i == 0 or i == 1):
+                    self.carros[i].move_right(1)
+        
+        else:
+            for i in range(4):
+                if(i == 2 or i == 3):
+                    self.carros[i].move_up(1)
+    
+        # Definimos la posición actual de los carros en un json
         for i in range(4):
             pos = {
                 "carro" + str(i) + "_x" : self.carros[i].x,
@@ -125,6 +135,11 @@ class StreetModel(ap.Model):
                 "carro" + str(i) + "_z" : self.carros[i].z
             }
             currentPos.update(pos)
+        for i in range(2):
+            estado = {
+                "semaforo" + str(i) + "_estado" : self.semaforo_carros[i].status
+            }
+            currentPos.update(estado)
 
         # FALTA AÑADIR FUNCIONALIDAD E INTEGRACIÓN DE LOS SEMÁFOROS CON OTROS AGENTES #
         # if (self.semaforoActivo == 0):
