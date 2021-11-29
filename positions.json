@@ -1,1612 +1,3230 @@
-[
-    {
-        "semaforo_carro0_x": -7,
-        "semaforo_carro0_y": 7,
-        "semaforo_carro1_x": 7,
-        "semaforo_carro1_y": -7,
-        "semaforo_peatones0_x": -6,
-        "semaforo_peatones0_y": -7,
-        "semaforo_peatones1_x": 6,
-        "semaforo_peatones1_y": 7
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": -2,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": -2,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": -1,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": -1,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 0,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 0,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 1,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 1,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 2,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 2,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 3,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 3,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 4,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 4,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 5,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 5,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 6,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 6,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 7,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 7,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 8,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 8,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 9,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 9,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 10,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 10,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 11,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 11,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 12,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 12,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 13,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 13,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 14,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 14,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 15,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 15,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 16,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 16,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 17,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 17,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 18,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 18,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 19,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 19,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 20,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 20,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 21,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 21,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 22,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 22,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 23,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 23,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 24,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 24,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 25,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 25,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 26,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 26,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 27,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 27,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 28,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 28,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 29,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 29,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 30,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 30,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 31,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 31,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 32,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 32,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 33,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 33,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 34,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 34,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 35,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 35,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 36,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 36,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 37,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 37,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 38,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 38,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 39,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 39,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 40,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 40,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 41,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 41,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 42,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 42,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 43,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 43,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 44,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 44,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 45,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 45,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 46,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 46,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 47,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 47,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 48,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 48,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 49,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 49,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 50,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 50,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 51,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 51,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 52,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 52,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 53,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 53,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 54,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 54,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 55,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 55,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 56,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 56,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 57,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 57,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 58,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 58,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 59,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 59,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 60,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 60,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 61,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 61,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 62,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 62,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 63,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 63,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 64,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 64,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 65,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 65,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 66,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 66,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 67,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 67,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 68,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 68,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 69,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 69,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 70,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 70,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 71,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 71,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 72,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 72,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 73,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 73,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 74,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 74,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 75,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 75,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 76,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 76,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 77,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 77,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 78,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 78,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 79,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 79,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 80,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 80,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 81,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 81,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 82,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 82,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 83,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 83,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 84,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 84,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 85,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 85,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 86,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 86,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 87,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 87,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 88,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 88,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 89,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 89,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 90,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 90,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 91,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 91,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 92,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 92,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 93,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 93,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 94,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 94,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 95,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 95,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 96,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 96,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    },
-    {
-        "carro0_x": 3,
-        "carro0_y": 0,
-        "carro0_z": -16,
-        "carro1_x": 3,
-        "carro1_y": 0,
-        "carro1_z": -23,
-        "carro2_x": -30,
-        "carro2_y": 0,
-        "carro2_z": 97,
-        "carro3_x": -37,
-        "carro3_y": 0,
-        "carro3_z": 97,
-        "semaforo0_estado": 0,
-        "semaforo1_estado": 1
-    }
-]
+{
+    "posicion_inicial": {
+        "semaforos_carros": [
+            {
+                "x": -7,
+                "y": 0,
+                "z": 7
+            },
+            {
+                "x": 7,
+                "y": 0,
+                "z": -7
+            }
+        ],
+        "semaforos_peatones": [
+            {
+                "x": -6,
+                "y": 0,
+                "z": -7
+            },
+            {
+                "x": 6,
+                "y": 0,
+                "z": 7
+            }
+        ]
+    },
+    "steps": [
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": -2
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": -2
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": -1
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": -1
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 0
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 0
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 1
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 1
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 2
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 2
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 3
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 3
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 4
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 4
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 5
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 5
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 6
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 6
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 7
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 7
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 8
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 8
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 9
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 9
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 10
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 10
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 11
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 11
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 12
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 12
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 13
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 13
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 14
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 14
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 15
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 15
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 16
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 16
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 17
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 17
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 18
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 18
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 19
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 19
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 20
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 20
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 21
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 21
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 22
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 22
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 23
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 23
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 24
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 24
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 25
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 25
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 26
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 26
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 27
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 27
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 28
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 28
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 29
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 29
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 30
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 30
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 31
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 31
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 32
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 32
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 33
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 33
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 34
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 34
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 35
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 35
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 36
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 36
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 37
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 37
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 38
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 38
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 39
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 39
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 40
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 40
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 41
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 41
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 42
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 42
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 43
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 43
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 44
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 44
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 45
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 45
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 46
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 46
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 47
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 47
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 48
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 48
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 49
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 49
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 50
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 50
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 51
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 51
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 52
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 52
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 53
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 53
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 54
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 54
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 55
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 55
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 56
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 56
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 57
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 57
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 58
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 58
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 59
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 59
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 60
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 60
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 61
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 61
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 62
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 62
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 63
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 63
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 64
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 64
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 65
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 65
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 66
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 66
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 67
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 67
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 68
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 68
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 69
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 69
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 70
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 70
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 71
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 71
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 72
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 72
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 73
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 73
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 74
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 74
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 75
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 75
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 76
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 76
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 77
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 77
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 78
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 78
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 79
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 79
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 80
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 80
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 81
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 81
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 82
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 82
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 83
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 83
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 84
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 84
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 85
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 85
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 86
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 86
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 87
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 87
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 88
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 88
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 89
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 89
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 90
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 90
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 91
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 91
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 92
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 92
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 93
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 93
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 94
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 94
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 95
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 95
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 96
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 96
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "carros": [
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -16
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -23
+                },
+                {
+                    "x": -30,
+                    "y": 0,
+                    "z": 97
+                },
+                {
+                    "x": -37,
+                    "y": 0,
+                    "z": 97
+                }
+            ],
+            "semaforos_carros": [
+                {
+                    "estado": 0
+                },
+                {
+                    "estado": 1
+                }
+            ]
+        }
+    ]
+}
