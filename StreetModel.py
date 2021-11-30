@@ -19,9 +19,6 @@ currentPos = {}
 class StreetModel(ap.Model):
 
     def setup(self):
-        # Iniciamos el contador de segundos
-        global t
-        t = time.time()
 
         semaforos_carros = []
         semaforos_peatones = []
@@ -83,6 +80,7 @@ class StreetModel(ap.Model):
         x_semaforo_peatones = [-6, 6]
         z_semaforo_peatones = [-7, 7]
 
+        # Añadimos la posicións de los carros
         for i in range(n_semaforo_carros):
             self.semaforo_carros[i].x = x_semaforo_carro[i]
             self.semaforo_carros[i].y = 0
@@ -95,6 +93,7 @@ class StreetModel(ap.Model):
             }
             semaforos_carros.append(semaforo)
 
+        # Añadimos la posición de los semáforos
         for i in range(n_semaforo_peatones):
             self.semaforo_peatones[i].x = x_semaforo_peatones[i]
             self.semaforo_peatones[i].y = 0
@@ -121,26 +120,28 @@ class StreetModel(ap.Model):
         ### AÑADIR PEATONES ###
 
     def step(self): 
+        print("\n")
+        # Añadimos las variables para el tiempo
+        global t
+        global elapsed_time
+        if (t == 0):
+            # Iniciamos el contador de segundos según inicien los steps
+            t = time.time()
 
         # Cada step tiene un arreglo de carros y uno de semaforos
         carros = []
         semaforos_carros = []
 
-        print("\n")
-        # for i in range(4):
-        #     print("Carro " + str(i + 1) + " - Posición: (" + str(self.carros[i].x) + ", " + str(self.carros[i].y) + ", " + str(self.carros[i].z) + ")" )
-        
-
         # Si el semáforo 1 está en verde, entonces avanzan los carros en x, si no avanzan los del eje z
         if (self.semaforo_carros[0].status == 1): 
             for i in range(4):
                 if (i == 0 or i == 1):
-                    self.carros[i].move_right(1)
+                    self.carros[i].move_right(0.5)
         
         else:
             for i in range(4):
                 if(i == 2 or i == 3):
-                    self.carros[i].move_up(1)
+                    self.carros[i].move_up(0.5)
     
         # Definimos la posición actual de los carros en un json
         for i in range(4):
@@ -156,24 +157,28 @@ class StreetModel(ap.Model):
             }
             semaforos_carros.append(semaforo)
 
-        # FALTA AÑADIR FUNCIONALIDAD E INTEGRACIÓN DE LOS SEMÁFOROS CON OTROS AGENTES #
-        # if (self.semaforoActivo == 0):
-        #     self.semaforo_carros[0].changeStatus()
-        #     self.semaforoActivo = 1
-        #     print("Semaforo 1")
-        # else:
-        #     self.semaforo_carros[1].changeStatus()
-        #     self.semaforoActivo = 0
-        #     print("Semaforo 2")
-        
-        
-
         # Vemos cuanto tiempo pasó #
-        global elapsed_time
         elapsed_time = time.time() - t
-        print(elapsed_time)
+        # print(elapsed_time)
 
+        # FALTA AÑADIR FUNCIONALIDAD E INTEGRACIÓN DE LOS SEMÁFOROS CON OTROS AGENTES #
 
+        # Tras 6 segundos cambian de estado los semáforos
+        if (elapsed_time > 6):
+            # Reiniciamos el contador a cero para volver a contar 6 segundos
+            t = time.time()
+
+            if (self.semaforo_carros[0].status == 1):
+                self.semaforo_carros[0].status = 0
+                self.semaforo_carros[1].status = 1
+            else:
+                self.semaforo_carros[0].status = 1
+                self.semaforo_carros[1].status = 0
+
+        # print("primer semaforo " + str(self.semaforo_carros[0].status))
+        # print("segundo semaforo: " + str(self.semaforo_carros[1].status))
+
+        # Añadimos al json las posiciones y los estados
         step = {
             "carros": carros,
             "semaforos_carros": semaforos_carros
@@ -200,7 +205,7 @@ parameters = {
     'semaforo_carros': 2, # número de agentes Semáforos para carros
     'peatones': 20, # número para agentes Peatones
     'size': 100, # Largo y alto del grid
-    'steps': 100, # iteraciones
+    'steps': 5000, # iteraciones
     'seed': 40,
 }
 

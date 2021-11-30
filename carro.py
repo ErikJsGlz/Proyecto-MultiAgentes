@@ -7,9 +7,9 @@ class Carro(ap.Agent):
         # Creamos un agente de tipo Carro
 
         # Definimos su posición
-        self.x = 0
-        self.y = 0
-        self.z = 0
+        self.x = 0.0
+        self.y = 0.0
+        self.z = 0.0
 
     """ 
     Funciones para mover al carro en la calle
@@ -17,17 +17,13 @@ class Carro(ap.Agent):
     no nos moveríamos sobre 'y', eso significaría que se elevaría o descendería el carro
     """
     def move_right(self, n):
-        for i in range(n):
-            self.x += 1
+        self.x += n
 
     def move_left(self, n):
-        for i in range(n):
-            self.x -= 1
+        self.x -= n
     
     def move_down(self, n):
-        for i in range(n):
-            self.z -= 1
+        self.z -= n
 
     def move_up(self, n):
-        for i in range(n):
-            self.z += 1
+        self.z += n
