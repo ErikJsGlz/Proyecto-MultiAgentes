@@ -29,8 +29,8 @@ class StreetModel(ap.Model):
         self.tiempo = self.p.tiempo
 
         """ Inicializamos los agentes """
-        n_carros = self.p.carros
-        self.carros = ap.AgentList(self, n_carros, Carro)
+        self.n_carros = self.p.carros
+        self.carros = ap.AgentList(self, self.n_carros, Carro)
 
         n_semaforo_carros = self.p.semaforo_carros
         self.semaforo_carros = ap.AgentList(self, n_semaforo_carros, SemaforoCarro)
@@ -56,8 +56,8 @@ class StreetModel(ap.Model):
         ])
         # Definimos la posisición de los carros para mandarlo a Unity
         # Para avanzar[0 - 1] -> z++, [2, 3] -> x++
-        x_carro = [3, 3, -30, -37]
-        z_carro = [-16, -23, -3, -3]
+        x_carro = [-3, 3, 95, 95]
+        z_carro = [-95, -95, 3, -3]
         for i in range(4):
             self.carros[i].x = x_carro[i]
             self.carros[i].y = 0
@@ -135,16 +135,41 @@ class StreetModel(ap.Model):
         carros = []
         semaforos_carros = []
 
+        # Avanzan hasta que está cerca del semáforo
+        for i in range(self.n_carros):
+            # EJE Z
+            if (i < 2):
+                # Si está antes del cruce avanza
+                if (self.carros[i].z < -18 or self.carros[i].z > -12):
+                    self.carros[i].move_up(0.5)
+                # Si el semáforo está en verde, puede avanzar más
+                elif (self.semaforo_carros[0].status == 1):
+                    self.carros[i].move_up(0.5)
+            #     
+            # EJE X
+            else:
+                if (self.carros[i].x > 18 or self.carros[i].x < 12):
+                    self.carros[i].move_left(0.5)
+                elif (self.semaforo_carros[1].status == 1):
+                    self.carros[i].move_left(0.5)
+
+        ## CAMBIAR A SI ESTÁ CERCA DE LA SEMÁFORO ##
         # Si el semáforo 1 está en verde, entonces avanzan los carros en x, si no avanzan los del eje z
-        if (self.semaforo_carros[0].status == 1): 
-            for i in range(4):
-                if (i == 0 or i == 1):
-                    self.carros[i].move_right(3)
+        # if (self.semaforo_carros[0].status == 1): 
+        #     for i in range(4):
+        #         if (i == 0 or i == 1):
+        #             self.carros[i].move_up(0.5)
         
-        else:
-            for i in range(4):
-                if(i == 2 or i == 3):
-                    self.carros[i].move_up(3)
+        # else:
+        #     for i in range(4):
+        #         if(i == 2 or i == 3):
+        #             self.carros[i].move_left(0.5)
+
+        # for i in range(4):
+        #     if (i == 0 or i == 1):
+        #         self.carros[i].move_up(0.5)
+        #     else:
+        #         self.carros[i].move_left(0.5)
     
         # Definimos la posición actual de los carros en un json
         for i in range(4):
@@ -162,11 +187,11 @@ class StreetModel(ap.Model):
 
         # Vemos cuanto tiempo pasó #
         elapsed_time = time.time() - t
-        # print(elapsed_time)
+        print(elapsed_time)
 
         # FALTA AÑADIR FUNCIONALIDAD E INTEGRACIÓN DE LOS SEMÁFOROS CON OTROS AGENTES #
 
-        # Tras 6 segundos cambian de estado los semáforos
+        # Tras cierta cantidad segundos cambian de estado los semáforos
         if (elapsed_time > self.tiempo):
             # Reiniciamos el contador a cero para volver a contar 6 segundos
             t = time.time()
@@ -178,8 +203,8 @@ class StreetModel(ap.Model):
                 self.semaforo_carros[0].status = 1
                 self.semaforo_carros[1].status = 0
 
-        # print("primer semaforo " + str(self.semaforo_carros[0].status))
-        # print("segundo semaforo: " + str(self.semaforo_carros[1].status))
+        print("primer semaforo " + str(self.semaforo_carros[0].status))
+        print("segundo semaforo: " + str(self.semaforo_carros[1].status))
 
         # Añadimos al json las posiciones y los estados
         step = {
@@ -188,7 +213,7 @@ class StreetModel(ap.Model):
         }
         steps.append(step)
 
-        time.sleep(1)
+        # time.sleep(1)
 
         ### ¿Falta actualizarlo en el grid? ###
         ### AÑADIR ALGUNA FUNCIONALIDAD A LOS PEATONES ###
@@ -205,13 +230,13 @@ class StreetModel(ap.Model):
 
         
 parameters = {
-    'tiempo': 6,
+    'tiempo': 1,
     'carros': 4, # número de agentes Carro
     'semaforo_peatones': 2, # número de agentes Semáforos para peatones
     'semaforo_carros': 2, # número de agentes Semáforos para carros
     'peatones': 20, # número para agentes Peatones
     'size': 100, # Largo y alto del grid
-    'steps': 24, # iteraciones
+    'steps': 600, # iteraciones
     'seed': 40,
 }
 
