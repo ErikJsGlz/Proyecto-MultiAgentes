@@ -20,10 +20,9 @@ class StreetModel(ap.Model):
 
     def setup(self):
 
+        # Arreglos para las posiciones de los semáforos
         semaforos_carros = []
         semaforos_peatones = []
-
-        # self.semaforoActivo = 0
 
         # Tiempo de cambio de los semáforos
         self.tiempo = self.p.tiempo
@@ -51,8 +50,15 @@ class StreetModel(ap.Model):
         self.cruce.add_agents(self.carros, [
             (-3, -95), 
             (3, -95),
+            (-3, -120),
+            (3, -142),
+            (-3, -145),
+            (3, -172),
             (95, 3),
-            (95, -3)
+            (95, -3),
+            (110, -3),
+            (136, 3),
+            (152, -3)
         ])
         # Definimos la posisición de los carros para mandarlo a Unity
         # Para avanzar[0 - 5] -> z++, [6 - 10] -> x++
@@ -119,12 +125,8 @@ class StreetModel(ap.Model):
             "posicion_inicial": step
         }
         jsonFile.update(stepInicial)
-        # steps.append(currentPos)
-
-        ### AÑADIR PEATONES ###
 
     def step(self): 
-        print("\n")
         # Añadimos las variables para el tiempo
         global t
         global elapsed_time
@@ -143,6 +145,7 @@ class StreetModel(ap.Model):
                 # Si está antes del cruce avanza
                 if (self.carros[i].z < -18 or self.carros[i].z > -12):
                     self.carros[i].move_up(0.5)
+
                 # Si el semáforo está en verde, puede avanzar más
                 elif (self.semaforo_carros[0].status == 1):
                     self.carros[i].move_up(0.5)
@@ -151,26 +154,10 @@ class StreetModel(ap.Model):
             else:
                 if (self.carros[i].x > 18 or self.carros[i].x < 12):
                     self.carros[i].move_left(0.5)
+
                 elif (self.semaforo_carros[1].status == 1):
                     self.carros[i].move_left(0.5)
-
-        ## CAMBIAR A SI ESTÁ CERCA DE LA SEMÁFORO ##
-        # Si el semáforo 1 está en verde, entonces avanzan los carros en x, si no avanzan los del eje z
-        # if (self.semaforo_carros[0].status == 1): 
-        #     for i in range(4):
-        #         if (i == 0 or i == 1):
-        #             self.carros[i].move_up(0.5)
-        
-        # else:
-        #     for i in range(4):
-        #         if(i == 2 or i == 3):
-        #             self.carros[i].move_left(0.5)
-
-        # for i in range(4):
-        #     if (i == 0 or i == 1):
-        #         self.carros[i].move_up(0.5)
-        #     else:
-        #         self.carros[i].move_left(0.5)
+    
     
         # Definimos la posición actual de los carros en un json
         for i in range(self.n_carros):
@@ -186,11 +173,9 @@ class StreetModel(ap.Model):
             }
             semaforos_carros.append(semaforo)
 
+
         # Vemos cuanto tiempo pasó #
         elapsed_time = time.time() - t
-        print(elapsed_time)
-
-        # FALTA AÑADIR FUNCIONALIDAD E INTEGRACIÓN DE LOS SEMÁFOROS CON OTROS AGENTES #
 
         # Tras cierta cantidad segundos cambian de estado los semáforos
         if (elapsed_time > self.tiempo):
@@ -204,21 +189,12 @@ class StreetModel(ap.Model):
                 self.semaforo_carros[0].status = 1
                 self.semaforo_carros[1].status = 0
 
-        print("primer semaforo " + str(self.semaforo_carros[0].status))
-        print("segundo semaforo: " + str(self.semaforo_carros[1].status))
-
         # Añadimos al json las posiciones y los estados
         step = {
             "carros": carros,
             "semaforos_carros": semaforos_carros
         }
         steps.append(step)
-
-        # time.sleep(1)
-
-        ### ¿Falta actualizarlo en el grid? ###
-        ### AÑADIR ALGUNA FUNCIONALIDAD A LOS PEATONES ###
-        ### AÑADIR FUNCIONALIDAD DE LOS SEMÁFOROS ###
         
         
         
@@ -231,7 +207,7 @@ class StreetModel(ap.Model):
 
         
 parameters = {
-    'tiempo': 10,
+    'tiempo': 10, # Tiempo de duración de los semáforos
     'carros': 11, # número de agentes Carro
     'semaforo_peatones': 2, # número de agentes Semáforos para peatones
     'semaforo_carros': 2, # número de agentes Semáforos para carros
