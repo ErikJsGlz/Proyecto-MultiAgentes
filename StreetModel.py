@@ -25,6 +25,9 @@ class StreetModel(ap.Model):
 
         self.semaforoActivo = 0
 
+        # Tiempo de cambio de los semáforos
+        self.tiempo = self.p.tiempo
+
         """ Inicializamos los agentes """
         n_carros = self.p.carros
         self.carros = ap.AgentList(self, n_carros, Carro)
@@ -136,12 +139,12 @@ class StreetModel(ap.Model):
         if (self.semaforo_carros[0].status == 1): 
             for i in range(4):
                 if (i == 0 or i == 1):
-                    self.carros[i].move_right(0.5)
+                    self.carros[i].move_right(3)
         
         else:
             for i in range(4):
                 if(i == 2 or i == 3):
-                    self.carros[i].move_up(0.5)
+                    self.carros[i].move_up(3)
     
         # Definimos la posición actual de los carros en un json
         for i in range(4):
@@ -164,7 +167,7 @@ class StreetModel(ap.Model):
         # FALTA AÑADIR FUNCIONALIDAD E INTEGRACIÓN DE LOS SEMÁFOROS CON OTROS AGENTES #
 
         # Tras 6 segundos cambian de estado los semáforos
-        if (elapsed_time > 6):
+        if (elapsed_time > self.tiempo):
             # Reiniciamos el contador a cero para volver a contar 6 segundos
             t = time.time()
 
@@ -185,6 +188,8 @@ class StreetModel(ap.Model):
         }
         steps.append(step)
 
+        time.sleep(1)
+
         ### ¿Falta actualizarlo en el grid? ###
         ### AÑADIR ALGUNA FUNCIONALIDAD A LOS PEATONES ###
         ### AÑADIR FUNCIONALIDAD DE LOS SEMÁFOROS ###
@@ -200,12 +205,13 @@ class StreetModel(ap.Model):
 
         
 parameters = {
+    'tiempo': 6,
     'carros': 4, # número de agentes Carro
     'semaforo_peatones': 2, # número de agentes Semáforos para peatones
     'semaforo_carros': 2, # número de agentes Semáforos para carros
     'peatones': 20, # número para agentes Peatones
     'size': 100, # Largo y alto del grid
-    'steps': 5000, # iteraciones
+    'steps': 24, # iteraciones
     'seed': 40,
 }
 
