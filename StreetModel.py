@@ -23,7 +23,7 @@ class StreetModel(ap.Model):
         semaforos_carros = []
         semaforos_peatones = []
 
-        self.semaforoActivo = 0
+        # self.semaforoActivo = 0
 
         # Tiempo de cambio de los semáforos
         self.tiempo = self.p.tiempo
@@ -49,16 +49,17 @@ class StreetModel(ap.Model):
         """ Agregamos a los agentes de tipo Carro """
         # Definimos la posición de los agentes dentro del Grid
         self.cruce.add_agents(self.carros, [
-            (3, -16), 
-            (3, -23),
-            (-30, -3),
-            (-37, -3)
+            (-3, -95), 
+            (3, -95),
+            (95, 3),
+            (95, -3)
         ])
         # Definimos la posisición de los carros para mandarlo a Unity
-        # Para avanzar[0 - 1] -> z++, [2, 3] -> x++
-        x_carro = [-3, 3, 95, 95]
-        z_carro = [-95, -95, 3, -3]
-        for i in range(4):
+        # Para avanzar[0 - 5] -> z++, [6 - 10] -> x++
+        # -3 -120
+        x_carro = [-3, 3, -3, 3, -3, 3,                95, 95, 110, 136, 152]
+        z_carro = [-95, -95, -120, -142, -145, -172,   3, -3, -3, 3, -3]
+        for i in range(self.n_carros):
             self.carros[i].x = x_carro[i]
             self.carros[i].y = 0
             self.carros[i].z = z_carro[i]
@@ -138,14 +139,14 @@ class StreetModel(ap.Model):
         # Avanzan hasta que está cerca del semáforo
         for i in range(self.n_carros):
             # EJE Z
-            if (i < 2):
+            if (i < 6):
                 # Si está antes del cruce avanza
                 if (self.carros[i].z < -18 or self.carros[i].z > -12):
                     self.carros[i].move_up(0.5)
                 # Si el semáforo está en verde, puede avanzar más
                 elif (self.semaforo_carros[0].status == 1):
                     self.carros[i].move_up(0.5)
-            #     
+            
             # EJE X
             else:
                 if (self.carros[i].x > 18 or self.carros[i].x < 12):
@@ -172,7 +173,7 @@ class StreetModel(ap.Model):
         #         self.carros[i].move_left(0.5)
     
         # Definimos la posición actual de los carros en un json
-        for i in range(4):
+        for i in range(self.n_carros):
             carro = {
                 "x": self.carros[i].x,
                 "y": self.carros[i].y,
@@ -230,8 +231,8 @@ class StreetModel(ap.Model):
 
         
 parameters = {
-    'tiempo': 1,
-    'carros': 4, # número de agentes Carro
+    'tiempo': 10,
+    'carros': 11, # número de agentes Carro
     'semaforo_peatones': 2, # número de agentes Semáforos para peatones
     'semaforo_carros': 2, # número de agentes Semáforos para carros
     'peatones': 20, # número para agentes Peatones
