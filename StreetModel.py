@@ -2,7 +2,6 @@ import agentpy as ap
 from semaforo_c import SemaforoCarro
 from semaforo_p import SemaforoPeaton
 from carro import Carro
-from peaton import Peaton
 
 # Para el tiempo
 import time
@@ -36,10 +35,6 @@ class StreetModel(ap.Model):
 
         n_semaforo_peatones = self.p.semaforo_peatones
         self.semaforo_peatones = ap.AgentList(self, n_semaforo_peatones, SemaforoPeaton)
-
-        n_peatones = self.p.peatones
-        self.peatones = ap.AgentList(self, n_peatones, Peaton)
-
 
         """ Creamos el grid del cruce """
         size = self.p.size
@@ -142,9 +137,12 @@ class StreetModel(ap.Model):
         for i in range(self.n_carros):
             # EJE Z
             if (i < 6):
-                # Si está antes del cruce avanza
-                if (self.carros[i].z < -18 or self.carros[i].z > -12):
+                # Si está antes o después del cruce avanza
+                if (self.carros[i].z < -18):
                     self.carros[i].move_up(0.5)
+                
+                elif (self.carros[i].z > -12):
+                    self.carros[i].move_up(1)
 
                 # Si el semáforo está en verde, puede avanzar más
                 elif (self.semaforo_carros[0].status == 1):
@@ -152,13 +150,16 @@ class StreetModel(ap.Model):
             
             # EJE X
             else:
-                if (self.carros[i].x > 18 or self.carros[i].x < 12):
+                if (self.carros[i].x > 18):
                     self.carros[i].move_left(0.5)
+
+                elif (self.carros[i].x < 12):
+                    self.carros[i].move_left(1)
 
                 elif (self.semaforo_carros[1].status == 1):
                     self.carros[i].move_left(0.5)
     
-    
+
         # Definimos la posición actual de los carros en un json
         for i in range(self.n_carros):
             carro = {
@@ -207,12 +208,11 @@ class StreetModel(ap.Model):
 
         
 parameters = {
-    'tiempo': 10, # Tiempo de duración de los semáforos
+    'tiempo': 3, # Tiempo de duración de los semáforos
     'carros': 11, # número de agentes Carro
     'semaforo_peatones': 2, # número de agentes Semáforos para peatones
     'semaforo_carros': 2, # número de agentes Semáforos para carros
-    'peatones': 20, # número para agentes Peatones
-    'size': 100, # Largo y alto del grid
+    'size': 300, # Largo y alto del grid
     'steps': 600, # iteraciones
     'seed': 40,
 }
